@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "testrepo"
+version = "0.1.0"
+description = ""
+authors = ["beaverU <ivanklapyshev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+python-telegram-bot = "^20.7"
+openai = "^1.6.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
